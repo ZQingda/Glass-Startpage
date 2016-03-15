@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "WadaLabMaruGo2004P4";
+  src: url("fonts/wlmaru2004p4u.ttf");
+  format("truetype");
+}
+body {
+  background-image: url("../resources/1442777272741.jpg");
+  background-size: 100% auto;
+  background-position: center top;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#menuButton {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  border: 1px solid white;
+  background-color: rgba(180,180,180,0.2);
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+}
+#menu {
+  display: none;
+  position: absolute;
+  bottom: 500px;
+  left: 200px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+  background-color: rgba(180,180,180,0.6);
+}
+#outershell {
+  position: absolute;
+  text-align: center;
+  margin-top: 395px;
+  left: 50%;
+  margin-left: -470px;
+  width: 940px;
+  height: 465px;
+  background-color: rgba(180,180,180,0.2);
+  border: 1px solid white;
+}
+#blurtest {
+  position: absolute;
+  left: 50%;
+  margin: 395px -470px;
+  background-image: url("../resources/1442777272741.jpg");
+  background-position: center -395px;
+  width: 940px;
+  height: 465px;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.searchForm {
+  position: relative;
+  width: 900px;
+  margin: 0 auto 0;
+}
+.searchBar, #backColor {
+  position: relative;
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+  background-color: rgba(5,5,5,0.6);
+  border-width: 1;
+  border-color: rgba(255,255,255,1);
+  border-style: solid;
+  margin: 20px 0 0 0;
+  font-size: 22px;
+  color: rgb(220,220,220);
+  width: 900px;
+  height: 55px;
+  padding-left: 15px;
+  transition: all 0.15s;
+}
+.searchBar:Hover {
+  background-color: rgba(5,5,5,0.75);
+  color: rgb(255,255,255);
+  border: 1px solid white;
+  transition: all 0.15s;
+}
+.searchBar:focus {
+  background-color: rgba(5,5,5,0.75);
+  border: 1px solid white;
+  color: rgb(255,255,255);
+  transition: all 0.15s;
+}
+/*input:focus {
+    background-color: rgba(0, 0, 0, 0);
+}*/
+table {
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+  position: relative;
+  margin: 20px auto;
+  background-color: rgba(5,5,5,0.6);
+  border-width: 1;
+  border-color: rgba(255,255,255,1);
+  border-style: solid;
+  color: rgba(200,200,200,1);
+  width: 900px;
+  height: 280;
+  border-collapse: collapse;
+  transition: all 0.15s;
+}
+table:hover {
+  border: 1px solid white;
+  background-color: rgba(5,5,5,0.75);
+  color: rgba(200,200,200,1);
+}
+table:hover ~ .jap {
+  border-color: rgba(255,255,255,1);
+}
+td {
+  vertical-align: middle;
+}
+.links {
+  padding-left: 20px;
+  text-shadow: 0px 0px 5px rgb(0,0,0);
+}
+.jap {
+  padding-left: none;
+  padding-right: 10px;
+  width: 180px;
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+  text-shadow: 0px 0px 5px rgb(0,0,0);
+  font-size: 24px;
+  text-align: right;
+  border-color: rgba(200,200,200,1);
+  border-width: 0 1px 0 0;
+  border-style: solid;
+}
+a:link {
+  font-family: "WadaLabMaruGo2004P4", sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: rgba(200,200,200,1);
+}
+a:visited {
+  color: rgba(200,200,200,1);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(255,255,255,1);
+}
