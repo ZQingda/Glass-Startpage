@@ -4,7 +4,7 @@
   format("truetype");
 }
 body {
-  background-image: url("../resources/1442777272741.jpg");
+  background-image: url("resources/1442777272741.jpg");
   background-size: 100% auto;
   background-position: center top;
   left: 0;
@@ -48,7 +48,7 @@ body {
   position: absolute;
   left: 50%;
   margin: 395px -470px;
-  background-image: url("../resources/1442777272741.jpg");
+  background-image: url("resources/1442777272741.jpg");
   background-position: center -395px;
   width: 940px;
   height: 465px;
